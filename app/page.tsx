@@ -16,16 +16,6 @@ const process = [
 
 const industries = ["Home Services", "Healthcare", "Construction", "Manufacturing", "Professional Services", "Financial Services"];
 
-function Mark() {
-  return (
-    <div className="brand-mark" aria-hidden="true">
-      <span className="mark-left" />
-      <span className="mark-right" />
-      <span className="mark-spark" />
-    </div>
-  );
-}
-
 function Icon({ index }: { index: number }) {
   const icons = ["✦", "⌘", "◫", "↗", "◔", "⟳"];
   return <span className="service-icon" aria-hidden="true">{icons[index]}</span>;
@@ -73,7 +63,7 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Varekai home"><Mark /><span><strong>Varek<span>ai</span></strong><small>Automation. Instantly.</small></span></a>
+        <a className="brand" href="#top" aria-label="Varekai home"><img src="/varekai-logo-horizontal.svg" alt="Varekai AI" className="brand-logo" /></a>
         <nav aria-label="Primary navigation">
           <a href="#services">Services</a><a href="#process">Process</a><a href="#industries">Industries</a><a href="#about">About</a><a href="#resources">Resources</a><a href="#contact">Contact</a>
         </nav>
@@ -136,7 +126,7 @@ export default function Home() {
       </main>
 
       <footer id="resources">
-        <div className="footer-brand"><a className="brand" href="#top"><Mark /><span><strong>Varek<span>ai</span></strong><small>Automation. Instantly.</small></span></a><p>We help organizations assess, advise, implement, and optimize AI solutions that deliver measurable business impact.</p></div>
+        <div className="footer-brand"><a className="brand" href="#top"><img src="/varekai-logo-horizontal.svg" alt="Varekai AI" className="brand-logo" /></a><p>We help organizations assess, advise, implement, and optimize AI solutions that deliver measurable business impact.</p></div>
         <div><h3>Company</h3><a href="#about">About Us</a><a href="#process">Our Process</a><a href="#contact">Careers</a><a href="#resources">Insights</a></div>
         <div><h3>Services</h3><a href="#services">AI Assessment</a><a href="#services">Automation</a><a href="#services">AI Assistants</a><a href="#services">Business Intelligence</a></div>
         <div><h3>Get in Touch</h3><a href="mailto:hello@varekai.ai">hello@varekai.ai</a><span>Dallas, Texas</span><a className="footer-button" href="#contact">Schedule Assessment</a></div>
