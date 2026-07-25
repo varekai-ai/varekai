@@ -1,0 +1,2 @@
+import { Reveal } from "./Reveal";
+export function CTA(){return <section className="py-28 text-center md:py-36" id="contact"><div className="wrap"><Reveal><p className="eyebrow text-center">Get Started</p><h2 className="mx-auto my-4 max-w-[700px] font-heading text-[clamp(2rem,4.5vw,3rem)] leading-tight">Start with an assessment. See the plan before you commit to the build.</h2><p className="mb-9 text-muted">A short conversation is enough to know if there&apos;s a fit.</p><a href="mailto:hello@varekai.com" className="button">hello@varekai.com</a></Reveal></div></section>}
