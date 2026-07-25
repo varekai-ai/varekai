@@ -1,0 +1,1 @@
+export function Footer(){return <footer className="border-t border-white/8 py-9"><div className="wrap flex flex-col items-center justify-between gap-3 text-center text-xs text-faint sm:flex-row"><p>© 2026 Varekai. Automation. Instantly.</p><a className="hover:text-white" href="mailto:hello@varekai.com">hello@varekai.com</a></div></footer>}

@@ -1,0 +1,4 @@
+import Image from "next/image";
+export function Header() {
+  return <header className="fixed inset-x-0 top-0 z-50 border-b border-white/8 bg-[#0a0e1a]/75 backdrop-blur-xl"><nav className="wrap flex h-[76px] items-center justify-between" aria-label="Main navigation"><a href="#top" className="flex items-center gap-2.5 font-heading text-xl font-bold"><Image src="/logo-mark.svg" alt="" width={20} height={20} priority />Varek<span className="-ml-2.5 text-blue">ai</span></a><div className="hidden gap-9 text-sm text-muted md:flex"><a className="hover:text-white" href="#approach">Approach</a><a className="hover:text-white" href="#services">Services</a><a className="hover:text-white" href="#contact">Contact</a></div><a href="#contact" className="border border-white/15 px-5 py-2 text-sm transition hover:border-blue hover:bg-blue/10">Start an assessment</a></nav></header>;
+}
