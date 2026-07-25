@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          show-progress: false
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -31,10 +33,10 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: npm install --no-audit --no-fund --silent
 
       - name: Lint
-        run: npm run lint
+        run: npm run lint -- --format stylish
 
       - name: Typecheck
         run: npm run typecheck
