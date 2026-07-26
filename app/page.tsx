@@ -1,66 +1,59 @@
 const services = [
-  ["AI Readiness", "Find the highest-value opportunities and build a practical roadmap."],
+  ["AI Readiness", "Identify the highest-value opportunities and build a practical automation roadmap."],
   ["Workflow Automation", "Remove repetitive work and connect the systems your team already uses."],
-  ["Custom AI Assistants", "Deploy secure, role-specific copilots that improve speed and consistency."],
+  ["Custom AI Assistants", "Give teams secure, role-specific copilots that improve speed and consistency."],
   ["Business Intelligence", "Turn fragmented operational data into clear decisions and measurable action."],
-  ["Voice AI Solutions", "Improve response, qualification, scheduling, and communication at scale."],
-  ["Continuous Optimization", "Measure adoption, improve performance, and expand responsibly."],
+  ["Voice AI Solutions", "Improve customer response, qualification, scheduling, and communication at scale."],
+  ["Continuous Optimization", "Measure adoption, improve performance, and expand automation responsibly."],
 ];
 
 const process = [
-  ["01", "Assess", "We uncover the automation opportunities with the clearest business value."],
-  ["02", "Advise", "We create a prioritized roadmap aligned to your goals, systems, and timeline."],
-  ["03", "Implement", "We build practical AI solutions that fit naturally into your operation."],
-  ["04", "Impact", "We measure outcomes, optimize performance, and scale what works."],
+  ["01", "Assess", "We evaluate your operations and identify the automation opportunities with the clearest business value."],
+  ["02", "Advise", "We create a prioritized roadmap aligned to your goals, systems, resources, and timeline."],
+  ["03", "Implement", "We build and deploy practical AI solutions that fit naturally into the way your team works."],
+  ["04", "Impact", "We measure outcomes, improve performance, and create a clear path for continued expansion."],
 ];
 
-const industries = [
-  "Home Services",
-  "Healthcare",
-  "Construction",
-  "Manufacturing",
-  "Professional Services",
-  "Financial Services",
-];
+const industries = ["Home Services", "Healthcare", "Construction", "Manufacturing", "Professional Services", "Financial Services"];
 
-function Wave() {
-  const nodes = [570, 645, 715, 782, 842, 900, 950];
+function Icon({ index }: { index: number }) {
+  const icons = ["✦", "⌘", "◫", "↗", "◔", "⟳"];
+  return <span className="service-icon" aria-hidden="true">{icons[index]}</span>;
+}
 
+function WaveField() {
   return (
-    <div className="wave" aria-hidden="true">
-      <div className="wave-orb" />
-      <svg viewBox="0 0 1000 610" role="presentation" preserveAspectRatio="xMidYMid slice">
+    <div className="wave-field" aria-hidden="true">
+      <div className="wave-glow" />
+      <svg viewBox="0 0 900 520" role="presentation">
         <defs>
-          <linearGradient id="lineA" x1="0" x2="1">
-            <stop stopColor="#0a4dbe" stopOpacity="0" />
-            <stop offset=".42" stopColor="#1488ff" />
-            <stop offset="1" stopColor="#7ed7ff" />
+          <linearGradient id="waveA" x1="0" x2="1">
+            <stop offset="0" stopColor="#0b2d62" stopOpacity="0" />
+            <stop offset=".42" stopColor="#1373ff" stopOpacity=".65" />
+            <stop offset="1" stopColor="#64b5ff" stopOpacity=".95" />
           </linearGradient>
-          <pattern id="mesh" width="15" height="15" patternUnits="userSpaceOnUse">
-            <circle cx="2" cy="2" r="1.35" fill="#258cff" opacity=".64" />
-          </pattern>
-          <filter id="glow">
-            <feGaussianBlur stdDeviation="5" result="blur" />
-            <feMerge>
-              <feMergeNode in="blur" />
-              <feMergeNode in="SourceGraphic" />
-            </feMerge>
+          <linearGradient id="waveB" x1="0" x2="1">
+            <stop offset="0" stopColor="#1564d8" stopOpacity=".05" />
+            <stop offset="1" stopColor="#1a8cff" stopOpacity=".75" />
+          </linearGradient>
+          <filter id="softGlow">
+            <feGaussianBlur stdDeviation="6" result="blur" />
+            <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
           </filter>
+          <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="1.3" fill="#2f8cff" opacity=".5" />
+          </pattern>
         </defs>
-        <path className="wave-fill one" d="M-30 390C155 222 305 265 430 340s307 135 600-104v420H-30z" fill="url(#mesh)" />
-        <path className="wave-fill two" d="M-30 470c205-169 353-95 497-28s315 47 563-104v318H-30z" fill="url(#mesh)" />
-        <path className="wave-line" d="M-30 405C150 245 295 268 430 352s325 123 600-120" fill="none" stroke="url(#lineA)" strokeWidth="4" filter="url(#glow)" />
-        <path d="M-30 466c210-157 353-103 500-30s322 57 560-98" fill="none" stroke="#1689ff" strokeOpacity=".72" strokeWidth="2" />
-        {nodes.map((x, index) => {
-          const top = 130 + (index % 3) * 52;
-          const bottom = 365 + (index % 2) * 38;
-          return (
-            <g key={x}>
-              <line x1={x} y1={top} x2={x} y2={bottom} stroke="#258cff" strokeOpacity={0.3 + index * 0.07} />
-              <circle cx={x} cy={top} r="3" fill="#9ddcff" filter="url(#glow)" />
-            </g>
-          );
-        })}
+        <path d="M-20 360 C150 220 280 250 410 330 S690 435 940 235" fill="none" stroke="url(#waveA)" strokeWidth="4" filter="url(#softGlow)" />
+        <path d="M-20 405 C155 285 285 280 420 350 S710 435 940 285" fill="none" stroke="url(#waveB)" strokeWidth="2.2" />
+        <path d="M-30 300 C125 205 260 210 390 285 S680 415 940 180 L940 520 L-30 520 Z" fill="url(#dots)" opacity=".7" />
+        <path d="M-30 380 C160 250 305 315 450 385 S720 420 940 265 L940 520 L-30 520 Z" fill="url(#dots)" opacity=".45" />
+        {[500, 570, 640, 705, 770, 825].map((x, i) => (
+          <g key={x} opacity={0.45 + i * 0.08}>
+            <line x1={x} y1={115 + (i % 3) * 45} x2={x} y2={300 + (i % 2) * 35} stroke="#2e8dff" strokeWidth="1" />
+            <circle cx={x} cy={115 + (i % 3) * 45} r="3" fill="#8ac8ff" filter="url(#softGlow)" />
+          </g>
+        ))}
       </svg>
     </div>
   );
@@ -70,119 +63,70 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Varekai home">
-          <img src="/varekai-logo-horizontal.svg" alt="Varekai — Automation. Instantly." />
-        </a>
+        <a className="brand" href="#top" aria-label="Varekai home"><img src="/varekai-logo-horizontal.svg" alt="Varekai AI" className="brand-logo" /></a>
         <nav aria-label="Primary navigation">
-          <a href="#services">Services</a>
-          <a href="#process">Process</a>
-          <a href="#industries">Industries</a>
-          <a href="#about">About</a>
-          <a href="#resources">Resources</a>
-          <a href="#contact">Contact</a>
+          <a href="#services">Services</a><a href="#process">Process</a><a href="#industries">Industries</a><a href="#about">About</a><a href="#resources">Resources</a><a href="#contact">Contact</a>
         </nav>
-        <a className="button nav-cta" href="#contact">Schedule Assessment</a>
+        <a className="nav-cta" href="#contact">Schedule Assessment</a>
       </header>
 
       <main>
         <section className="hero" id="top">
           <div className="hero-copy">
-            <p className="eyebrow">Enterprise AI transformation</p>
+            <p className="hero-label">Practical AI transformation</p>
             <h1>Automation.<br /><span>Instantly.</span></h1>
             <p className="hero-lede">AI consulting that delivers measurable business results.</p>
             <p className="hero-body">We help organizations identify high-impact automation opportunities, implement practical AI solutions, and create lasting operational advantages.</p>
             <div className="hero-actions">
-              <a className="button primary" href="#contact">Schedule Your AI Assessment</a>
-              <a className="watch" href="#process"><i aria-hidden="true">▶</i> Watch Overview</a>
+              <a className="primary-button" href="#contact">Schedule Your AI Assessment</a>
+              <a className="text-button" href="#process"><span>▶</span> Watch Overview</a>
             </div>
           </div>
-          <Wave />
+          <WaveField />
         </section>
 
-        <section className="trust" aria-label="Trusted organizations">
-          <p>Trusted by forward-thinking organizations</p>
-          <div>
-            <span>CHAMPION<small>HOME SERVICES</small></span>
-            <span>The Wrench Group</span>
-            <span>HRI<small>HOME RESTORATION</small></span>
-            <span>Renewal<small>by Andersen</small></span>
-            <span>ARS<small>RESCUE ROOTER</small></span>
-          </div>
-        </section>
-
-        <section className="section band" id="process">
-          <header className="section-title">
-            <p className="eyebrow">How we create value</p>
-            <h2>The Varekai Process</h2>
-            <p>A focused framework for turning AI strategy into real operational impact.</p>
-          </header>
+        <section className="process-section section-band" id="process">
+          <div className="section-title centered"><h2>The Varekai Process</h2><p>A proven framework for delivering automation that drives real impact.</p></div>
           <div className="process-grid">
-            {process.map(([number, title, body]) => (
-              <article key={number}>
-                <div className="step-icon">{number}</div>
-                <h3>{title}</h3>
+            {process.map(([number, title, body], index) => (
+              <article className="process-step" key={number}>
+                <div className="process-icon">{["⌕", "▤", "⚙", "↗"][index]}</div>
+                <div className="process-heading"><span>{number}</span><h3>{title}</h3></div>
                 <p>{body}</p>
               </article>
             ))}
           </div>
         </section>
 
-        <section className="section services" id="services">
-          <header className="section-title">
-            <p className="eyebrow">Capabilities</p>
-            <h2>Our Services</h2>
-            <p>Practical AI systems designed to streamline operations and accelerate growth.</p>
-          </header>
+        <section className="services-section" id="services">
+          <div className="section-title centered"><h2>Our Services</h2><p>Practical AI solutions designed to streamline operations and accelerate growth.</p></div>
           <div className="services-grid">
             {services.map(([title, body], index) => (
-              <article className="service-card" key={title}>
-                <div className="service-icon" aria-hidden="true">{["✦", "⌘", "◫", "↗", "◔", "⟳"][index]}</div>
-                <h3>{title}</h3>
-                <p>{body}</p>
-                <a href="#contact">Learn More <span>→</span></a>
-              </article>
+              <article className="service-card" key={title}><Icon index={index} /><h3>{title}</h3><p>{body}</p><a href="#contact">Learn More <span>→</span></a></article>
             ))}
           </div>
         </section>
 
-        <section className="section band" id="industries">
-          <header className="section-title">
-            <p className="eyebrow">Industry focus</p>
-            <h2>Industries We Serve</h2>
-            <p>Deep operating knowledge. Practical AI solutions.</p>
-          </header>
+        <section className="industries-section section-band" id="industries">
+          <div className="section-title centered"><h2>Industries We Serve</h2><p>Deep industry knowledge. Practical AI solutions.</p></div>
           <div className="industries-grid">
-            {industries.map((industry, index) => (
-              <div className="industry" key={industry}>
-                <span aria-hidden="true">{["⌂", "♡", "♜", "▥", "▣", "▤"][index]}</span>
-                <strong>{industry}</strong>
-              </div>
-            ))}
+            {industries.map((industry, index) => <div className="industry" key={industry}><span>{["⌂", "♡", "♜", "▥", "▣", "▤"][index]}</span><strong>{industry}</strong></div>)}
           </div>
         </section>
 
-        <section className="about" id="about">
-          <div>
-            <p className="eyebrow">Built for operators</p>
-            <h2>Strategy that becomes a working system.</h2>
-          </div>
-          <p>Varekai connects executive priorities to real implementation. We focus on systems teams can adopt, outcomes leadership can measure, and a roadmap that creates value beyond a single project.</p>
+        <section className="about-strip" id="about">
+          <div><p className="hero-label">Built for operators</p><h2>Strategy that becomes a working system.</h2></div>
+          <p>Varekai connects executive priorities to real implementation. We focus on practical systems your team can adopt, measurable outcomes leadership can see, and a roadmap that creates value beyond a single project.</p>
         </section>
 
-        <section className="cta" id="contact">
-          <div>
-            <h2>Ready to automate what matters?</h2>
-            <p>Schedule your AI assessment and discover opportunities to save time, reduce costs, and grow your business.</p>
-          </div>
-          <a className="button primary" href="mailto:hello@varekai.ai">Schedule Your AI Assessment</a>
+        <section className="cta-section" id="contact">
+          <div><h2>Ready to automate what matters?</h2><p>Schedule your AI assessment and discover opportunities to save time, reduce costs, and grow your business.</p></div>
+          <a className="primary-button" href="mailto:hello@varekai.ai">Schedule Your AI Assessment</a>
         </section>
       </main>
 
       <footer id="resources">
-        <div className="footer-brand">
-          <a className="brand" href="#top"><img src="/varekai-logo-horizontal.svg" alt="Varekai" /></a>
-          <p>We assess, advise, implement, and optimize AI solutions that deliver measurable business impact.</p>
-        </div>
+        <div className="footer-brand"><a className="brand" href="#top"><img src="/varekai-logo-horizontal.svg" alt="Varekai AI" className="brand-logo" /></a><p>We help organizations assess, advise, implement, and optimize AI solutions that deliver measurable business impact.</p></div>
         <div><h3>Company</h3><a href="#about">About Us</a><a href="#process">Our Process</a><a href="#contact">Careers</a><a href="#resources">Insights</a></div>
         <div><h3>Services</h3><a href="#services">AI Assessment</a><a href="#services">Automation</a><a href="#services">AI Assistants</a><a href="#services">Business Intelligence</a></div>
         <div><h3>Get in Touch</h3><a href="mailto:hello@varekai.ai">hello@varekai.ai</a><span>Dallas, Texas</span><a className="footer-button" href="#contact">Schedule Assessment</a></div>
