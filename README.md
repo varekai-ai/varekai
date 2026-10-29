@@ -1,12 +1,12 @@
-# Varekai
+# varekai.ai
 
-Varekai's production landing page, built with Next.js App Router, TypeScript, Tailwind CSS, and Framer Motion.
+The Varekai website: hand-built static HTML and CSS, no build step.
 
-## Development
+- `index.html` home page, `work.html` design concepts, one page per service
+- `real-estate.html` KeyLink for real estate agents
+- `privacy.html` and `terms.html` (includes the SMS terms that A2P texting registration checks)
+- `vercel.json` turns on clean URLs, so `/real-estate` serves `real-estate.html`
 
-```bash
-npm install
-npm run dev
-```
+Deploy: Vercel serves this folder as-is (Framework preset: Other, no build command, output directory: root).
 
-Use `npm run lint` and `npm run build` before deployment. The app uses standard Next.js defaults and can be imported directly into Vercel with no custom build configuration.
+The older Next.js version of the site lives on the `nextjs-july` branch.
