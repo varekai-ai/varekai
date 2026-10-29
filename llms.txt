@@ -33,7 +33,13 @@ Every engagement starts with a free assessment.
 - [Text-to-Pay & Invoicing](https://www.varekai.ai/text-to-pay-invoicing): Payment links by text, automatic reminders, and hands-off reconciliation.
 - [Hiring & Recruiting](https://www.varekai.ai/hiring-and-recruiting): Automated screening, self-scheduled interviews and candidate follow-up.
 
+## For real estate agents
+
+- [KeyLink for Real Estate Agents](https://www.varekai.ai/real-estate): AI assistants for agents (Ava for missed calls and texts, Shelby for showing routes by phone, Kai for real estate answers), the Premiere listing launch package, and month-to-month plans.
+
 ## Other pages
 
 - [Home](https://www.varekai.ai/): Overview, ROI calculator, process and FAQ.
 - [Our Work](https://www.varekai.ai/work): Examples of systems built for local businesses.
+- [Privacy Policy](https://www.varekai.ai/privacy)
+- [Terms of Service and SMS terms](https://www.varekai.ai/terms)

@@ -993,3 +993,7 @@ footer .f-about .logo-mark{width:357px;height:196px}
 @media(max-width:900px){.row2{grid-template-columns:1fr!important;gap:30px!important}}
 @media(max-width:760px){.incl li{font-size:.9rem}}
 /* ===== end service page additions ===== */
+
+/* nav: keep links on one line; switch to the menu button before they get crowded */
+.nav-links a{white-space:nowrap;padding:9px 12px}
+@media(max-width:1180px){.nav-links{display:none}.burger{display:flex}}
