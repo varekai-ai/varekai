@@ -14,7 +14,7 @@ Book a walkthrough: https://www.varekai.ai/book-a-walkthrough
 - [AI Assistant for Agents](https://www.varekai.ai/ai-assistant-for-real-estate-agents): One assistant for your calls, texts, showing routes and real estate questions.
 - [Missed-Call Text-Back](https://www.varekai.ai/missed-call-text-back-for-real-estate-agents): Every call you miss gets a text from Ava within seconds, 24/7.
 - [Live Call Answering](https://www.varekai.ai/real-estate-answering-service): Ava answers your calls live, 24/7, and handles questions about your listings.
-- [Online Lead Follow-Up](https://www.varekai.ai/real-estate-lead-follow-up): Ava contacts new Zillow, Realtor.com, Facebook and website leads within a minute.
+- [Online Lead Follow-Up](https://www.varekai.ai/real-estate-lead-follow-up): Ava contacts new Zillow, Realtor.com, Facebook and website leads within 60 seconds.
 - [Listing Presentations and CMAs](https://www.varekai.ai/listing-presentations-and-cmas): Upload your comps and get a branded CMA and listing presentation in minutes.
 - [Premiere Listing Videos](https://www.varekai.ai/real-estate-listing-videos): A cinematic listing film, property website, Smart Sign and open house system for one listing.
 - [Virtual Staging and Room Edits](https://www.varekai.ai/virtual-staging-for-real-estate-agents): Repaint, change floors, declutter, stage or add twilight from your phone.
