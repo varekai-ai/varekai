@@ -45,3 +45,16 @@
 .kl-svc{columns:1}
 @media(max-width:1080px){.kl-g4,.kl-steps.n4{grid-template-columns:repeat(2,1fr)}.kl-g3,.kl-steps{grid-template-columns:repeat(2,1fr)}.kl-foot{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.kl-g3,.kl-g4,.kl-steps,.kl-steps.n4,.kl-why,.kl-incl{grid-template-columns:1fr}.kl-why,.kl-incl{gap:30px}.kl-foot{grid-template-columns:1fr}}
+.kl-which{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+.kl-which .plan{position:relative;border:1px solid var(--line);border-radius:var(--radius-lg);background:var(--surface);padding:28px 24px;display:flex;flex-direction:column}
+.kl-which .plan.pick{border-color:color-mix(in srgb,var(--ac) 55%,transparent);background:linear-gradient(180deg,color-mix(in srgb,var(--ac) 10%,transparent),var(--surface))}
+.kl-which .tag{position:absolute;top:-12px;left:24px;font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--ac);color:#04060b}
+.kl-which h3{font-size:1.35rem;color:#fff;margin-bottom:4px}
+.kl-promise{color:var(--ac);font-weight:600;font-size:1rem;margin-bottom:10px}
+.kl-up{color:#fff;font-weight:700;font-size:1.05rem;margin-bottom:10px}
+.kl-lead{color:var(--text);font-size:1rem;line-height:1.55;margin-bottom:16px}
+.kl-which .incl{margin-bottom:16px}
+.kl-who,.kl-stay{color:var(--muted);font-size:.95rem;line-height:1.5;margin-top:auto}
+.kl-stay{margin-top:8px}
+.kl-who b,.kl-stay b{color:#fff}
+@media(max-width:900px){.kl-which{grid-template-columns:1fr}}
