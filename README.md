@@ -3,7 +3,7 @@
 The Varekai website: hand-built static HTML and CSS, no build step.
 
 - `index.html` real estate home page; `services.html` and one page per service, all written for real estate agents
-- `keylink.html` (/keylink) everything included, plan by plan; `about`, `how-it-works`, `faq`, `book-a-walkthrough`
+- `keylink.html` (/keylink) pricing and everything included, plan by plan; `about`, `how-it-works`, `faq`, `book-a-walkthrough`
 - `keylink-site.css` styles for these pages, on top of `varekai.css`
 - `business.html` and the older service and `work` pages are the hidden general-business site: not in the menu or sitemap, and marked noindex
 - `privacy.html` and `terms.html` (includes the SMS terms that A2P texting registration checks)
