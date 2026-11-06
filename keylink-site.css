@@ -49,7 +49,7 @@
 .kl-which .plan{position:relative;border:1px solid var(--line);border-radius:var(--radius-lg);background:var(--surface);padding:28px 24px;display:flex;flex-direction:column}
 .kl-which .plan.pick{border-color:color-mix(in srgb,var(--ac) 55%,transparent);background:linear-gradient(180deg,color-mix(in srgb,var(--ac) 10%,transparent),var(--surface))}
 .kl-which .tag{position:absolute;top:-12px;left:24px;font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--ac);color:#04060b}
-.kl-which h3{font-size:1.35rem;color:#fff;margin-bottom:4px}
+.kl-which .plan h3{font-size:1.5rem;color:var(--ac);margin-bottom:8px}
 .kl-promise{color:var(--ac);font-weight:600;font-size:.92rem;letter-spacing:-.005em;margin-bottom:10px;min-height:1.5em}
 .kl-up{color:#fff;font-weight:700;font-size:1.05rem;margin-bottom:10px}
 .kl-lead{color:var(--text);font-size:1rem;line-height:1.55;margin-bottom:16px}
