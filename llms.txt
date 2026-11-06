@@ -21,7 +21,7 @@ Book a walkthrough: https://www.varekai.ai/book-a-walkthrough
 - [Showing Routes and Tour Books](https://www.varekai.ai/showing-routes-and-buyer-tour-books): Call Ava from the car to plan your showing day, and give buyers a tour book.
 - [Open House Sign-In](https://www.varekai.ai/open-house-sign-in): Visitors scan a QR code to sign in on their own phones, and Ava follows up.
 - [Seller Updates and Client Follow-Up](https://www.varekai.ai/seller-updates-and-past-client-follow-up): Weekly seller reports, plus follow-up that keeps past clients hearing from you.
-- [Google Reviews and Profile](https://www.varekai.ai/google-reviews-for-real-estate-agents): Review requests, reminders, QR codes, AI-drafted replies and profile support.
+- [Google Reviews and Profile](https://www.varekai.ai/google-reviews-for-real-estate-agents): Review requests, reminders, QR codes, Ava-drafted replies and profile support.
 - [Social Media and Listing Posts](https://www.varekai.ai/real-estate-social-media-posts): Social posts, just listed and just sold posts, and print-ready postcards.
 
 ## Other pages
