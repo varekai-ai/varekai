@@ -1,46 +1,35 @@
-# Varekai
+# KeyLink
 
-> Varekai builds AI automation systems for small local businesses in Weatherford, Fort Worth
-> and the wider Dallas–Fort Worth metroplex — AI voice agents that answer every call, instant
-> missed-call text-back, automated follow-up, websites, local SEO, and process automation.
+> KeyLink is an AI assistant, an app and done-for-you marketing for real estate agents.
+> Ava, the AI assistant, handles missed calls, texts, live answering and showing routes.
+> KeyLink also builds CMAs, listing presentations and cinematic listing films.
 
-Varekai is a small AI automation consultancy based in Weatherford, Texas (Parker County),
-serving home service companies, contractors, clinics, and other local service businesses
-across Weatherford, Fort Worth, Aledo, Willow Park, Hudson Oaks, Springtown, Azle, Granbury,
-Mineral Wells, Benbrook and the surrounding DFW area.
+KeyLink is built in Weatherford, Texas, and works with real estate agents remotely. Plans start at $199 a month plus a one-time build fee, month to month with no contract.
 
-Contact: automate@varekai.ai · (817) 821-1316
-Every engagement starts with a free assessment.
+Contact: automate@varekai.ai · (817) 821-1316 · Call Ava: (817) 686-3436
+Book a walkthrough: https://www.varekai.ai/book-a-walkthrough
 
-## Services — Get found
+## Services
 
-- [Website Design & Build](https://www.varekai.ai/website-design-build): Fast, mobile-first websites built to convert local searches into booked jobs.
-- [SEO & AI Search Optimization](https://www.varekai.ai/seo-and-ai-search): Local SEO, Google Business Profile, and visibility inside AI answer engines.
-- [Reviews & Referrals](https://www.varekai.ai/reviews-and-referrals): Automated review requests and referral flows that build local reputation.
-- [Paid Social & Lead Ads](https://www.varekai.ai/paid-social-and-lead-ads): Facebook and Instagram lead ads wired to sub-minute follow-up.
-
-## Services — Follow up fast
-
-- [Missed-Call Text-Back](https://www.varekai.ai/missed-call-text-back): Any unanswered call gets an automatic text within seconds, so the caller does not go to a competitor.
-- [AI Voice Agents](https://www.varekai.ai/ai-voice-agents): An AI receptionist that answers every call 24/7, qualifies the caller, and books the job.
-- [Unsold Estimate Follow-Up](https://www.varekai.ai/unsold-estimate-follow-up): Automated follow-up on quotes that were never accepted or declined.
-- [Database Reactivation](https://www.varekai.ai/database-reactivation): Campaigns that bring past customers back from your existing contact list.
-
-## Services — Automate the rest
-
-- [Process Automation](https://www.varekai.ai/process-automation): Removes the repetitive admin work — intake, scheduling, reminders, internal handoffs.
-- [AI Agents](https://www.varekai.ai/ai-agents): Custom AI agents trained on your pricing, policies and service area, across chat, SMS and social.
-- [Text-to-Pay & Invoicing](https://www.varekai.ai/text-to-pay-invoicing): Payment links by text, automatic reminders, and hands-off reconciliation.
-- [Hiring & Recruiting](https://www.varekai.ai/hiring-and-recruiting): Automated screening, self-scheduled interviews and candidate follow-up.
-
-## For real estate agents
-
-- [KeyLink for Real Estate Agents](https://www.varekai.ai/real-estate): an AI assistant for agents named Ava (missed calls and texts, showing routes by phone, real estate answers), the Premiere listing launch package, and month-to-month plans.
-- [The KeyLink Film](https://www.varekai.ai/keylink-film): a six-minute film showing Ava and KeyLink through a listing, a showing day and a dinner out, then Joey explaining why he built it.
+- [AI Assistant for Agents](https://www.varekai.ai/ai-assistant-for-real-estate-agents): One assistant for your calls, texts, showing routes and real estate questions.
+- [Missed-Call Text-Back](https://www.varekai.ai/missed-call-text-back-for-real-estate-agents): Every call you miss gets a text from Ava within seconds, 24/7.
+- [Live Call Answering](https://www.varekai.ai/real-estate-answering-service): Ava answers your calls live, 24/7, and handles questions about your listings.
+- [Online Lead Follow-Up](https://www.varekai.ai/real-estate-lead-follow-up): Ava contacts new Zillow, Realtor.com, Facebook and website leads within a minute.
+- [Listing Presentations and CMAs](https://www.varekai.ai/listing-presentations-and-cmas): Upload your comps and get a branded CMA and listing presentation in minutes.
+- [Premiere Listing Videos](https://www.varekai.ai/real-estate-listing-videos): A cinematic listing film, property website, Smart Sign and open house system for one listing.
+- [Virtual Staging and Room Edits](https://www.varekai.ai/virtual-staging-for-real-estate-agents): Repaint, change floors, declutter, stage or add twilight from your phone.
+- [Showing Routes and Tour Books](https://www.varekai.ai/showing-routes-and-buyer-tour-books): Call Ava from the car to plan your showing day, and give buyers a tour book.
+- [Open House Sign-In](https://www.varekai.ai/open-house-sign-in): Visitors scan a QR code to sign in on their own phones, and Ava follows up.
+- [Seller Updates and Client Follow-Up](https://www.varekai.ai/seller-updates-and-past-client-follow-up): Weekly seller reports, plus follow-up that keeps past clients hearing from you.
+- [Google Reviews and Profile](https://www.varekai.ai/google-reviews-for-real-estate-agents): Review requests, reminders, QR codes, AI-drafted replies and profile support.
+- [Social Media and Listing Posts](https://www.varekai.ai/real-estate-social-media-posts): Social posts, just listed and just sold posts, and print-ready postcards.
 
 ## Other pages
 
-- [Home](https://www.varekai.ai/): Overview, ROI calculator, process and FAQ.
-- [Our Work](https://www.varekai.ai/work): Examples of systems built for local businesses.
+- [Plans](https://www.varekai.ai/keylink): Everything included, plan by plan.
+- [The KeyLink Film](https://www.varekai.ai/keylink-film): A six-minute film about KeyLink, then Joey explaining why he built it.
+- [How It Works](https://www.varekai.ai/how-it-works): From walkthrough to setup.
+- [About](https://www.varekai.ai/about): Joey Hughes, 17 years in real estate and the RE/MAX Hall of Fame.
+- [FAQ](https://www.varekai.ai/faq)
 - [Privacy Policy](https://www.varekai.ai/privacy)
 - [Terms of Service and SMS terms](https://www.varekai.ai/terms)
