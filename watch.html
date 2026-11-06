@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>See what happens when you can&rsquo;t answer | KeyLink</title>
+<meta name="description" content="A six-minute film about KeyLink for real estate agents.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#04060b">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="video.other">
+<meta property="og:site_name" content="KeyLink">
+<meta property="og:title" content="See what happens when you can&rsquo;t answer">
+<meta property="og:description" content="Six minutes with KeyLink: a listing, a showing day and a dinner out, with Ava covering what you can&rsquo;t.">
+<meta property="og:image" content="https://www.varekai.ai/media/keylink-film-poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/varekai.css">
+<link rel="stylesheet" href="/keylink-site.css">
+<style>
+.w-top{padding:26px 0 0;display:flex;justify-content:center}
+.w-top img{height:120px;width:auto}
+.w-hero{padding:6px 0 70px;text-align:center}
+.w-hero h1{font-size:clamp(2rem,4.6vw,3.4rem);letter-spacing:-.04em;line-height:1.05;margin:0}
+.w-hero .lead{color:var(--muted);font-size:1.05rem;margin:14px auto 0;max-width:560px;line-height:1.6}
+.film{margin-top:30px;border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;background:#000;box-shadow:0 30px 80px -30px rgba(47,107,255,.35)}
+.film video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#000}
+.film-note{color:var(--muted-2);font-size:.9rem;margin-top:12px}
+.w-next{max-height:0;opacity:0;overflow:hidden;transform:translateY(12px);transition:opacity .6s var(--ease),transform .6s var(--ease),max-height .6s var(--ease)}
+.w-next.on{max-height:400px;opacity:1;transform:none}
+.w-next .hero-cta{justify-content:center;margin-top:26px}
+@media(max-width:760px){.w-top img{height:96px}.w-next .hero-cta .btn{width:100%;justify-content:center}}
+</style>
+</head>
+<body>
+<div class="wrap w-top"><img class="logo-mark" src="/varekai-logo-master.webp" alt="Varekai"></div>
+<main><section class="w-hero"><div class="wrap">
+  <h1>See what happens <span class="grad-text">when you can&rsquo;t answer.</span></h1>
+  <p class="lead">Six minutes with KeyLink. Turn the sound on.</p>
+  <div class="film">
+    <video id="film" controls playsinline preload="metadata" poster="/media/keylink-film-poster.jpg">
+      <source src="/media/keylink-film.mp4" type="video/mp4">
+    </video>
+  </div>
+  <p class="film-note">The agent, clients, brokerage and homes in this film are fictional and AI-generated. Joey is the real one.</p>
+  <div class="w-next" id="next" aria-hidden="true">
+    <div class="hero-cta">
+      <a href="/keylink" class="btn btn-primary btn-lg" tabindex="-1">See plans and pricing</a>
+      <a href="https://link.varekai.ai/widget/booking/4RHKsK1jrhGJJOQLLNGi" class="btn btn-ghost btn-lg" tabindex="-1">Book a walkthrough</a>
+      <a href="tel:+18176863436" class="btn btn-ghost btn-lg" tabindex="-1">Call Ava</a>
+    </div>
+  </div>
+</div></section></main>
+<script>(function(){
+var v=document.getElementById('film'),n=document.getElementById('next'),shown=false,END=372.5;
+function show(){if(shown)return;shown=true;n.classList.add('on');n.setAttribute('aria-hidden','false');
+ n.querySelectorAll('a').forEach(function(a){a.removeAttribute('tabindex');});
+ setTimeout(function(){var r=n.getBoundingClientRect();if(r.bottom>window.innerHeight&&!document.fullscreenElement&&!document.webkitFullscreenElement){n.scrollIntoView({behavior:'smooth',block:'end'});}},300);}
+v.addEventListener('timeupdate',function(){if(v.currentTime>=END)show();});
+v.addEventListener('ended',function(){try{if(document.fullscreenElement)document.exitFullscreen();else if(document.webkitFullscreenElement)document.webkitExitFullscreen();else if(v.webkitDisplayingFullscreen)v.webkitExitFullscreen();}catch(e){}show();});
+v.addEventListener('webkitendfullscreen',function(){if(v.currentTime>=END)show();});
+})();</script>
+</body></html>
