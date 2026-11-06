@@ -50,11 +50,11 @@
 .kl-which .plan.pick{border-color:color-mix(in srgb,var(--ac) 55%,transparent);background:linear-gradient(180deg,color-mix(in srgb,var(--ac) 10%,transparent),var(--surface))}
 .kl-which .tag{position:absolute;top:-12px;left:24px;font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--ac);color:#04060b}
 .kl-which h3{font-size:1.35rem;color:#fff;margin-bottom:4px}
-.kl-promise{color:var(--ac);font-weight:600;font-size:1rem;margin-bottom:10px}
+.kl-promise{color:var(--ac);font-weight:600;font-size:.92rem;letter-spacing:-.005em;margin-bottom:10px;min-height:1.5em}
 .kl-up{color:#fff;font-weight:700;font-size:1.05rem;margin-bottom:10px}
 .kl-lead{color:var(--text);font-size:1rem;line-height:1.55;margin-bottom:16px}
 .kl-which .incl{margin-bottom:16px}
-.kl-who,.kl-stay{color:var(--muted);font-size:.95rem;line-height:1.5;margin-top:auto}
-.kl-stay{margin-top:8px}
+.kl-which .incl span{color:#fff}
+.kl-stay{color:var(--text);font-size:.95rem;line-height:1.5;margin-top:auto}
 .kl-who b,.kl-stay b{color:#fff}
 @media(max-width:900px){.kl-which{grid-template-columns:1fr}}
