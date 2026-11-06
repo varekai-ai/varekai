@@ -63,3 +63,4 @@
 .kl-why-up p{color:var(--text);font-size:1.05rem;line-height:1.65;margin-bottom:12px}
 .kl-why-up p.kl-notsure{margin-top:12px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted)}
 .kl-why-up p.kl-notsure b{color:#fff}
+.kl-plus{color:#fff;font-weight:600;font-size:1rem;margin:0 0 12px}
