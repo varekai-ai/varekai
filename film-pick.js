@@ -1,5 +1,5 @@
 /* Phones held upright get the tall cut of the KeyLink film; everything else keeps the wide one.
-   Turning the phone switches cuts and keeps the viewer's place in the film. */
+   Turning the phone switches cuts and keeps the viewer's place in the film, full screen included. */
 (function(){
   try{
     if(!window.matchMedia)return;
@@ -28,7 +28,7 @@
         });
       }
     }
-    function apply(keep){vids.forEach(function(o){if(!fs(o.v))set(o,mq.matches,keep);});}
+    function apply(keep){vids.forEach(function(o){set(o,mq.matches,keep);});}
     apply(false);
     var onChange=function(){apply(true);};
     if(mq.addEventListener)mq.addEventListener('change',onChange);else if(mq.addListener)mq.addListener(onChange);
